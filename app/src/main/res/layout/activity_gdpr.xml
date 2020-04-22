@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Gdpr"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:paddingHorizontal="25dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gdpr_title"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"></TextView>
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginVertical="25dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gdpr_text1"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gdpr_text2"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></TextView>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_gdpr_btn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ok_btn"
+        android:textColor="#fff"></Button>
+
+    <TextView
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_thank_you"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="12dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gdpr_text_3"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:textSize="10dp"
+        android:textStyle="italic"></TextView>
+
+
+    <TextView
+        android:id="@+id/btn_privacypolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/privacy_policy"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"
+        android:textSize="10dp"></TextView>
+
+
+
+
+</LinearLayout>

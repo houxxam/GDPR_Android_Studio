@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gdpr</string>
+    <string name="no_thank_you"><u>NO, Thank you</u></string>
+    <string name="privacy_policy"><u>Privacy policy</u></string>
+    <string name="gdpr_title">Personalize Your Ad Experience</string>
+    <string name="gdpr_text1">we care about your privacy and data security. We keep this app free by showing ads.</string>
+    <string name="gdpr_text2">You can change your choice anytime for our App in the app settings. If you choose to see ads, we\'ll Partner with Google and use a unique identifier on your device.</string>
+    <string name="accept_gdpr_btn">YES, I AGREE</string>
+    <string name="gdpr_text_3">i understand that i will still see ads, but that may not be as relevant to my interests.</string>
+</resources>
